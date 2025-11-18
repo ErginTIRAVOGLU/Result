@@ -8,7 +8,7 @@
 
     
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Ergin TIRAVOGLU</Authors>
     <PackageId>ErginWebDev.Result</PackageId>
     <Description>A simple and flexible Result pattern implementation for .NET applications. Provides strongly-typed result handling with success/failure states, messages, data, and error collections.</Description>
@@ -23,7 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
